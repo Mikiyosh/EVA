@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        function getMaxAndMin(s) {
+            const numbers = s.split(" ").map(Number);
+            const max = Math.max(...numbers);
+            const min = Math.min(...numbers);
+
+            return `${max} ${min}`;
+        }
+        console.log(getMaxAndMin("9 12 3 6 10")); // 12 3
+        console.log(getMaxAndMin("1 1 2 2 3")); // 3 1
+        console.log(getMaxAndMin("5 9 -1 10 2")); // 10 -1
+
+    </script>
+
+</body>
+
+</html>
