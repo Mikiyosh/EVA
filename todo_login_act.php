@@ -23,6 +23,18 @@ try {
   exit();
 }
 
+$term = $_POST['term'];
+$section = $_POST['section'];
+$grade = $_POST['grade'];
+$age = $_POST['age'];
+$gender = $_POST['gender'];
+
+if (!$term || !$section || !$grade || !$age || !$gender) {
+  echo "<p>必要な情報を入力してください。</p>";
+  echo "<a href=todo_login.php>ログイン</a>";
+  exit();
+}
+
 
 // ユーザ有無で条件分岐
 
@@ -36,7 +48,7 @@ if (!$user) {
   $_SESSION['session_id'] = session_id();
   $_SESSION['is_admin'] = $user['is_admin'];
   $_SESSION['username'] = $user['username'];
-  header("Location:todo_read.php");
+  header("Location:users.php");
   exit();
 }
 

@@ -17,6 +17,8 @@ function connect_to_db()
 // ログイン状態のチェック関数
 // functions.php
 
+
+
 function check_session_id()
 {
   if (!isset($_SESSION["session_id"]) ||$_SESSION["session_id"] !== session_id()) {
@@ -27,4 +29,5 @@ function check_session_id()
     $_SESSION["session_id"] = session_id();
   }
 }
+
 
