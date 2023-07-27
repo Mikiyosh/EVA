@@ -798,92 +798,80 @@ a:hover {
             <tr>
                 <td rowspan="3">KNOWLEDGE<br>技術と知識</td>
                 <td> <a class="js-modal-open" href="" data-target="modal01">文章作成力</a></td>
-                <td><input type="text" placeholder="文章作成力をどのよう達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="技術と知識をどのよう達成するか記入して下さい。"></td>
 
             <tr>
-                <td><a class="js-modal-open" href="" data-target="modal02">テクニカルスキル</a></td>
-                <td><input type="text" placeholder="テクニカルスキルをどのよう達成するか記入して下さい。"></td>          
+                <td><a class="js-modal-open" href="" data-target="modal02">テクニカルスキル</a></td>      
   
             </tr>
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal03">ラーニングアジリティ</a></td>
-                <td><input type="text" placeholder="ラーニングアジリティをどのように達成するか記入して下さい。"></td>
 
             </tr>
         
             <tr>
                 <td rowspan="3">INNOVATION<br>発想力</td>
                 <td><a class="js-modal-open" href="" data-target="modal04">企画発案力</a></td>
-                <td><input type="text" placeholder="発想力をどのように達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="発想力をどのように達成するか記入して下さい。"></td>
 
             </tr>
 
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal05">問題定義と改善</a></td>
-                <td><input type="text" placeholder="問題定義と改善をどのように達成するか記入して下さい。"></td>
     
             </tr>
 
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal06">探求心と追求心</a></td>
-                <td><input type="text" placeholder="探求心と追求心をどのように達成するか記入して下さい。"></td>
           
             </tr>
             <tr>
                 <td rowspan="3">LEADERSHIP<br>リーダーシップ</td> 
                 <td><a class="js-modal-open" href="" data-target="modal07">ビジョニング力</a></td>
-                <td><input type="text" placeholder="ビジョニング力をどのように達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="リーダーシップをどのように達成するか記入して下さい。"></td>
            
             
             </tr>
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal08">目標設定と遂行力</a></td>
-                <td><input type="text" placeholder="目標設定と遂行力をどのように達成するか記入して下さい。"></td>
             </tr>
 
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal09">影響力</a></td>
-                <td><input type="text" placeholder="影響力をどのように達成するか記入して下さい。"></td>
             </tr>
             <tr>
                 <td rowspan="3">FOLLOWERSHIP<br>フォロワーシップ</td> 
                 <td><a class="js-modal-open" href="" data-target="modal10">翻訳力</a></td>
-                <td><input type="text" placeholder="翻訳力をどのように達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="フォロワーシップをどのように達成するか記入して下さい。"></td>
             </tr>
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal11">プロジェクトマネジメント</a></td>
-                <td><input type="text" placeholder="全社目標をどのように達成するか記入して下さい。"></td>
             </tr>
     　      <tr>
                 <td><a class="js-modal-open" href="" data-target="modal12">チームマネジメント</a></td>
-                <td><input type="text" placeholder="全社目標をどのように達成するか記入して下さい。"></td>
             </tr>
 
             <tr>
                 <td rowspan="3">HOSPITALITY<br>ホスピタリティ</td> 
                 <td><a class="js-modal-open" href="" data-target="modal13">人材育成</a></td>
-                <td><input type="text" placeholder="人材育成をどのように達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="ホスピタリティをどのように達成するか記入して下さい。"></td>
             </tr>
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal14">メンバーシップ</a></td>
-                <td><input type="text" placeholder="メンバーシップをどのように達成するか記入して下さい。"></td>
             </tr>
     　      <tr>
                 <td><a class="js-modal-open" href="" data-target="modal15">セルフマネジメント</a></td>
-                <td><input type="text" placeholder="セルフマネジメントをどのように達成するか記入して下さい。"></td>
             </tr>
             <tr>
                 <td rowspan="3">HOSPIFLEXIBILITY<br>経験と対応力</td> 
                 <td><a class="js-modal-open" href="" data-target="modal16">現場力</a></td>
-                <td><input type="text" placeholder="現場力をどのように達成するか記入して下さい。"></td>
+                <td rowspan="3"><input type="text" placeholder="経験と対応力をどのように達成するか記入して下さい。"></td>
             </tr>
             <tr>
                 <td><a class="js-modal-open" href="" data-target="modal17">トラブル対応力</a></td>
-                <td><input type="text" placeholder="トラブル対応力をどのように達成するか記入して下さい。"></td>
             </tr>
     　      <tr>
                 <td><a class="js-modal-open" href="" data-target="modal18">クライアント対応力</a></td>
-                <td><input type="text" placeholder="クライアント対応力をどのように達成するか記入して下さい。"></td>
             </tr>
 
     </table>
